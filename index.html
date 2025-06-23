@@ -9,6 +9,7 @@
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -22,12 +23,29 @@
             border-radius: 5px;
             background-color: white;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .message {
+            color: #666;
+            font-size: 1.2em;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+            line-height: 1.6;
         }
     </style>
 </head>
 
 <body>
     <h1>Gitの練習です</h1>
+    <div class="message">
+        Gitを使うと、コードの変更履歴を管理できます。<br>
+        チーム開発でも、個人開発でも、とても役立つツールです。
+    </div>
 </body>
 
 </html>
